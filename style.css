@@ -124,3 +124,17 @@ height: 245px;
   font-weight: bold;
 }
 
+
+ .button{
+  margin-bottom: 30px;
+  text-align: center;
+ }
+
+ .button-green{
+  background-color: green;
+ }
+
+ .button-red{
+  background-color: red;
+ }
+
