@@ -8,7 +8,7 @@ const changeColorCardButton = document.querySelector('#change-card-color-button'
 const productCardList = document.querySelectorAll('.product-card');
 const changeColorCardListButton = document.querySelector('#change-all-card-color-button');
 
-  changeColorCardListButton.addEventListener('click', () => {
+changeColorCardListButton.addEventListener('click', () => {
   productCardList.forEach((card) => card.style.backgroundColor = 'red');
 })
 
@@ -42,8 +42,8 @@ outputConsolLog.addEventListener('click', () => {
 
 const colorButton = document.querySelector('#change-color-button');
 
-  colorButton.classList.add('button-green');
+colorButton.classList.add('button-green');
 
-  colorButton.addEventListener('click', () => {
+colorButton.addEventListener('click', () => {
     colorButton.classList.toggle('button-red');
 })
